@@ -1,0 +1,29 @@
+{{- $email := promptStringOnce . "email" "GitHub email address" -}}
+
+{
+  "cd": {
+    "command": "pwsh"
+  },
+  "data": {
+    "email": {{ $email | quote }}
+  },
+  "diff": {
+    "command": "nvim",
+    "args": [
+      "-d",
+      "-R"
+    ]
+  },
+  "merge": {
+    "command": "nvim",
+    "args": [
+      "-d",
+      {{ printf "%q" "{{ .Destination }}" }},
+      {{ printf "%q" "{{ .Source }}" }},
+      {{ printf "%q" "{{ .Target }}" }}
+    ]
+  },
+  "shell": {
+    "command": "pwsh"
+  }
+}

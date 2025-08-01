@@ -1,0 +1,165 @@
+{
+  "Displays": [
+    {
+{{- if eq .chezmoi.hostname "b" }}
+      "Id": "MONITOR\\AUS3554\\{4d36e96e-e325-11ce-bfc1-08002be10318}\\0001",
+{{- else if eq .chezmoi.hostname "c" }}
+      "Id": "MONITOR\\BOE0A6A\\{4d36e96e-e325-11ce-bfc1-08002be10318}\\0001",
+{{- end }}
+      "TermBar": {
+        "FontFamily": "Monofur Nerd Font Propo",
+        "FontSize": 16,
+        "WindowList": {
+          "ProcessIconMap": {
+            "ApplicationFrameHost": {
+              "WindowNameIconMap": {
+                "Calculator": {
+                  "IconColor": "Sky",
+                  "Icon": "󱗅"
+                }
+              }
+            },
+            "chrome": {
+              "IconColor": "Yellow",
+              "Icon": ""
+            },
+            "Code": {
+              "IconColor": "Sapphire",
+              "Icon": ""
+            },
+            "devenv": {
+              "IconColor": "Mauve",
+              "Icon": ""
+            },
+            "EXCEL": {
+              "IconColor": "Green",
+              "Icon": "󱎏"
+            },
+            "explorer": {
+              "IconColor": "Yellow",
+              "Icon": ""
+            },
+            "firefox": {
+              "IconColor": "Peach",
+              "Icon": ""
+            },
+            "Furminal": {
+              "IconColor": "Pink",
+              "Icon": "󰏩"
+            },
+            "librewolf": {
+              "IconColor": "Sky",
+              "Icon": "",
+              "WindowNameIconMap": {
+                " · GitHub": {
+                  "IconColor": "Surface2",
+                  "Icon": ""
+                },
+                "Microsoft Learn": {
+                  "IconColor": "Mauve",
+                  "Icon": ""
+                },
+                "Stardew Valley Wiki": {
+                  "IconColor": "Peach",
+                  "Icon": "󱐟"
+                }
+              }
+            },
+            "msedge": {
+              "IconColor": "Teal",
+              "Icon": ""
+            },
+            "Notepad": {
+              "IconColor": "Sapphire",
+              "Icon": ""
+            },
+            "olk": {
+              "IconColor": "Sapphire",
+              "Icon": ""
+            },
+            "POWERPNT": {
+              "IconColor": "Peach",
+              "Icon": "󱎐"
+            },
+            "steamwebhelper": {
+              "IconColor": "Blue",
+              "Icon": ""
+            },
+            "WindowsTerminal": {
+              "IconColor": "Overlay0",
+              "Icon": ""
+            },
+            "WINWORD": {
+              "IconColor": "Blue",
+              "Icon": "󱎒"
+            }
+          }
+        },
+        "Modules": [
+          {
+            "$module": "SystemDropdown"
+          },
+          {
+            "$module": "Launcher",
+            "LauncherEntries": [
+              {
+                "Name": "Visual Studio 2022",
+                "Command": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe"
+              },
+              {
+                "Name": "Furminal",
+                "Command": "Furminal",
+                "CommandArguments": [
+                  "--rows 48",
+                  "--cols 160",
+                  "pwsh"
+                ]
+              },
+              {
+                "Name": "File Explorer",
+                "Command": "explorer",
+                "CommandArguments": [
+                  "%USERPROFILE%"
+                ]
+              }
+            ]
+          },
+          {
+            "$module": "Terminal",
+{{- if eq .chezmoi.hostname "c" }}
+            "Columns": "40",
+{{- end }}
+            "Command": "pwsh",
+            "FullColorEmoji": true
+          },
+          {
+            "$module": "WindowBar"
+          },
+          {
+            "$module": "WindowDropdown"
+          },
+          {
+            "$module": "Memory"
+          },
+{{- if eq .chezmoi.arch "amd64" "x86" }}
+          {
+            "$module": "Gpu"
+          },
+{{- end }}
+          {
+            "$module": "Cpu"
+          },
+          {
+            "$module": "Volume"
+          },
+          {
+            "$module": "Clock",
+            "TimeFormat": "HH:mm:ss",
+            "UpdateInterval": 100
+          }
+        ]
+      }
+    }
+  ],
+  "StartupAtBoot": true
+}

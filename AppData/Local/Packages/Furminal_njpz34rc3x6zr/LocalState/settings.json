@@ -1,0 +1,72 @@
+{
+  "Basics": {
+    "Command": "pwsh",
+    "DefaultWindowTitle": "Furminal",
+    "Rows": 24,
+    "Columns": 80,
+    "TabWidth": 8,
+    "StartDirectory": "%USERPROFILE%"
+  },
+  "Appearance": {
+    "WindowBackdrop": "Acrylic",
+    "SolidColorWindowBackdropColor": "#FF000000",
+    "FontFamily": "Monofur Nerd Font Propo",
+    "FontSize": 16,
+    "TextAntialiasing": "Grayscale",
+    "FullColorEmoji": true,
+    "UseBackgroundColorErase": true,
+    "BackgroundIsInvisible": true
+  },
+  "Behavior": {
+    "UseVisualBell": true,
+    "VisualBellDisplayTime": 1,
+    "UseContextMenu": true,
+    "UseExtendedContextMenu": true
+  },
+  "Cursor": {
+    "CursorStyle": "Underline",
+    "CursorThickness": 0.1,
+    "CursorBlink": true,
+    "CursorBlinkRate": 500,
+    "CursorColor": "#FFBAC2DE"
+  },
+  "Scrollback": {
+    "ScrollbackLines": 5000,
+    "LinesPerScrollback": 12,
+    "LinesPerSmallScrollback": 1,
+    "LinesPerWheelScrollback": 8
+  },
+  "CopyAndPaste": {
+    "CopyOnMouseUp": true,
+    "PasteOnMiddleClick": true,
+    "PasteOnRightClick": false,
+    "CopyNewline": "\r\n"
+  },
+  "ColorPalette": {
+    "DefaultColors": {
+      "DefaultBackgroundColor": "#FF45475A",
+      "DefaultForegroundColor": "#FFA6ADC8",
+      "DefaultUnderlineColor": "#FFA6ADC8"
+    },
+    "StandardColors": {
+      "Black": "#FF45475A",
+      "Red": "#FFF38BA8",
+      "Green": "#FFA6E3A1",
+      "Yellow": "#FFF9E2AF",
+      "Blue": "#FF89B4FA",
+      "Magenta": "#FFF6C2E7",
+      "Cyan": "#FF94E2D5",
+      "White": "#FFA6ADC8"
+    },
+    "BrightColors": {
+      "BrightBlack": "#FF585B70",
+      "BrightRed": "#FFF37799",
+      "BrightGreen": "#FF89D88B",
+      "BrightYellow": "#FFEBD391",
+      "BrightBlue": "#FF74A8FC",
+      "BrightMagenta": "#FFF2AEDE",
+      "BrightCyan": "#FF6BD7CA",
+      "BrightWhite": "#FFBAC2DE"
+    }
+  }
+}
