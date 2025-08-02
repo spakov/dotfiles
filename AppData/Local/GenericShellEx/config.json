@@ -1,0 +1,22 @@
+{
+  "types": {
+    "*": {
+      "title": "Open in Neovim",
+      "icon": "%PROGRAMFILES%\\Neovim\\bin\\nvim.exe,0",
+      "toolTip": "Open in Neovim",
+      "command": "Furminal --rows 48 --cols 164 nvim %*"
+    },
+    "Directory": {
+      "title": "Open in Neovim",
+      "icon": "%PROGRAMFILES%\\Neovim\\bin\\nvim.exe,0",
+      "toolTip": "Open in Neovim",
+      "command": "Furminal --rows 64 --cols 224 nvim %1"
+    },
+    "Directory\\Background": {
+      "title": "Open in Neovim",
+      "icon": "%PROGRAMFILES%\\Neovim\\bin\\nvim.exe,0",
+      "toolTip": "Open in Neovim",
+      "command": "Furminal --rows 64 --cols 224 nvim %1"
+    }
+  }
+}
