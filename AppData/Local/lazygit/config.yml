@@ -5,7 +5,7 @@ gui:
       - reverse
 os:
   editPreset: "nvim-remote"
-  edit: "pwsh -Command if (Test-Path env:NVIM) { nvim --server \"${env:NVIM}\" --remote-send q; nvim --server \"${env:NVIM}\" --remote-tab \"{{filename}}\" } else { nvim -- \"{{filename}}\" }"
-  editAtLine: "pwsh -Command if (Test-Path env:NVIM) { nvim --server \"${env:NVIM}\" --remote-send q; nvim --server \"${env:NVIM}\" --remote-tab \"{{filename}}\"; nvim --server \"${env:NVIM}\" --remote-send \":{{line}}<CR>\" } else { nvim +{{line}} -- \"{{filename}}\" }"
+  edit: "pwsh -NoProfile -Command if (Test-Path env:NVIM) { nvim --server \"${env:NVIM}\" --remote-send q; nvim --server \"${env:NVIM}\" --remote-tab \"{{filename}}\" } else { nvim -- \"{{filename}}\" }"
+  editAtLine: "pwsh -NoProfile -Command if (Test-Path env:NVIM) { nvim --server \"${env:NVIM}\" --remote-send q; nvim --server \"${env:NVIM}\" --remote-tab \"{{filename}}\"; nvim --server \"${env:NVIM}\" --remote-send \":{{line}}<CR>\" } else { nvim +{{line}} -- \"{{filename}}\" }"
   editAtLineAndWait: "nvim +{{line}} \"{{filename}}\""
-  openDirInEditor: "pwsh -Command if (Test-Path env:NVIM) { nvim --server \"${env:NVIM}\" --remote-send q; nvim --server \"${env:NVIM}\" --remote-tab \"{{dir}}\" } else { nvim -- \"{{dir}}\" }"
+  openDirInEditor: "pwsh -NoProfile -Command if (Test-Path env:NVIM) { nvim --server \"${env:NVIM}\" --remote-send q; nvim --server \"${env:NVIM}\" --remote-tab \"{{dir}}\" } else { nvim -- \"{{dir}}\" }"
