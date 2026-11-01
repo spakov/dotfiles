@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/OhMyPosh.json)"
