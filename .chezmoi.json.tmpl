@@ -2,7 +2,9 @@
 
 {
   "cd": {
+    {{- if eq .chezmoi.os "windows" }}
     "command": "pwsh"
+    {{- end }}
   },
   "data": {
     "email": {{ $email | quote }}
@@ -24,6 +26,10 @@
     ]
   },
   "shell": {
+    {{- if eq .chezmoi.os "windows" }}
     "command": "pwsh"
+    {{- end }}
   }
 }
+
+# vi:ft=go
