@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# No spaces!
+backup_directories="Documents Notes"
+
+my_files=/my-files/
+
+f_strategy=create-new-revision
+d_strategy=merge
+
+for i in $backup_directories; do
+  proton-drive filesystem upload ~/$i/ $my_files -f $f_strategy -d $d_strategy
+done
