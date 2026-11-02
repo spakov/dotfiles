@@ -12,6 +12,9 @@ MoveFactor=20
 Stiffness=3
 WobblynessLevel=3
 
+[ElectricBorders]
+BottomRight=LockScreen
+
 [Input]
 TabletMode=off
 
