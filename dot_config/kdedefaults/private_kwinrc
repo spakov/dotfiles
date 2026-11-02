@@ -1,0 +1,7 @@
+[TabBox]
+LayoutName=compact
+
+[org.kde.kdecoration2]
+NoPlugin=false
+library=org.kde.oxygen
+theme=Oxygen
