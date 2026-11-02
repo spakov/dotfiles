@@ -1,0 +1,22 @@
+[Desktop Entry]
+Actions=NewChat;NewCode;
+Categories=Utility;Development;
+Comment=Desktop application for Claude.ai
+Exec=/usr/bin/distrobox-enter  -n Claude  --   claude-desktop  %U
+GenericName=AI Assistant (on Claude)
+Icon=claude-desktop
+Keywords=AI;Chat;Assistant;Claude;Code;LLM;
+MimeType=x-scheme-handler/claude;application/vnd.anthropic.mcpb;application/vnd.anthropic.skill;
+Name=Claude (on Claude)
+SingleMainWindow=true
+StartupNotify=true
+StartupWMClass=com.anthropic.Claude
+Type=Application
+
+[Desktop Action NewChat]
+Exec=/usr/bin/distrobox-enter  -n Claude  --   claude-desktop "claude://claude.ai/new?surface=chat&source=desktop_action"
+Name=New Chat (on Claude)
+
+[Desktop Action NewCode]
+Exec=/usr/bin/distrobox-enter  -n Claude  --   claude-desktop "claude://code/new?source=desktop_action"
+Name=New Claude Code Session (on Claude)

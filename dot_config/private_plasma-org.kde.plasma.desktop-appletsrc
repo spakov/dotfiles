@@ -58,7 +58,7 @@ DialogWidth=810
 fill=false
 groupingStrategy=0
 highlightWindows=true
-launchers=preferred://browser,file:///var/lib/flatpak/exports/share/applications/org.mozilla.thunderbird.desktop,applications:org.kde.konsole.desktop,file:///var/lib/flatpak/exports/share/applications/md.obsidian.Obsidian.desktop,applications:Claude-com.anthropic.Claude.desktop,applications:net.lutris.Lutris.desktop,preferred://filemanager
+launchers=preferred://browser,file:///var/lib/flatpak/exports/share/applications/org.mozilla.thunderbird.desktop,applications:org.kde.konsole.desktop,file:///var/lib/flatpak/exports/share/applications/md.obsidian.Obsidian.desktop,applications:net.lutris.Lutris.desktop,preferred://filemanager
 middleClickAction=Close
 wheelEnabled=TaskOnly
 
