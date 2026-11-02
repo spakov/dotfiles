@@ -9,6 +9,6 @@ gtk-cursor-blink=1
 gtk-cursor-theme-size=36
 gtk-cursor-theme-name="Apple-cursors"
 gtk-sound-theme-name="ocean"
-gtk-icon-theme-name="ColorFlow.Agresive.Color"
+gtk-icon-theme-name="breeze-dark"
 gtk-font-name="Monofur Nerd Font,  12"
 

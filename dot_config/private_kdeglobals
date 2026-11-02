@@ -23,7 +23,7 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=69,71,90
 BackgroundNormal=69,71,90
-DecorationFocus=203,166,247
+DecorationFocus=123,101,150
 DecorationHover=203,166,247
 ForegroundActive=116,199,236
 ForegroundInactive=186,194,222
@@ -77,23 +77,23 @@ ForegroundPositive[$d]
 ForegroundVisited[$d]
 
 [Colors:Selection]
-BackgroundAlternate=69,71,90
+BackgroundAlternate=49,50,68
 BackgroundNormal=203,166,247
-DecorationFocus=203,166,247
+DecorationFocus=123,101,150
 DecorationHover=203,166,247
-ForegroundActive=116,199,236
-ForegroundInactive=186,194,222
-ForegroundLink=137,180,250
-ForegroundNegative=243,139,168
-ForegroundNeutral=249,226,175
+ForegroundActive=32,132,150
+ForegroundInactive=88,91,112
+ForegroundLink=54,129,250
+ForegroundNegative=150,32,66
+ForegroundNeutral=150,111,32
 ForegroundNormal=17,17,27
-ForegroundPositive=166,227,161
-ForegroundVisited=137,180,250
+ForegroundPositive=72,150,61
+ForegroundVisited=54,129,250
 
 [Colors:Tooltip]
 BackgroundAlternate=69,71,90
 BackgroundNormal=16,16,25
-DecorationFocus=203,166,247
+DecorationFocus=123,101,150
 DecorationHover=203,166,247
 ForegroundActive=116,199,236
 ForegroundInactive=186,194,222
@@ -107,7 +107,7 @@ ForegroundVisited=137,180,250
 [Colors:View]
 BackgroundAlternate=37,37,54
 BackgroundNormal=34,34,51
-DecorationFocus=203,166,247
+DecorationFocus=123,101,150
 DecorationHover=203,166,247
 ForegroundActive=116,199,236
 ForegroundInactive=186,194,222
@@ -121,7 +121,7 @@ ForegroundVisited=137,180,250
 [Colors:Window]
 BackgroundAlternate=24,24,37
 BackgroundNormal=30,30,46
-DecorationFocus=203,166,247
+DecorationFocus=123,101,150
 DecorationHover=203,166,247
 ForegroundActive=116,199,236
 ForegroundInactive=186,194,222
@@ -133,7 +133,7 @@ ForegroundPositive=166,227,161
 ForegroundVisited=137,180,250
 
 [General]
-ColorSchemeHash=247a76d725189fea104c55918ec1870dd9edff74
+ColorSchemeHash=a6a0af038a812789d3fe632500c7852a99b11e34
 XftAntialias=true
 XftHintStyle=hintfull
 XftSubPixel=rgb
@@ -144,7 +144,7 @@ smallestReadableFont=Monofur Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 toolBarFont=Monofur Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [KDE]
-LookAndFeelPackage=Better Catppuccin Mocha
+LookAndFeelPackage=Better Catppuccin Mocha 3
 contrast=7
 frameContrast=0.2
 

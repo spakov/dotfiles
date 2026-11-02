@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinMocha
 
 [Icons]
-Theme=ColorFlow.Agresive.Color
+Theme=breeze-dark
 
 [KDE]
 widgetStyle=Breeze
