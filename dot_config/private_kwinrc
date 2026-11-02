@@ -1,3 +1,6 @@
+[Compositing]
+AllowTearing=false
+
 [Desktops]
 Id_1=0f84bfe3-5920-4c61-81ca-538de24e2612
 Number=1
