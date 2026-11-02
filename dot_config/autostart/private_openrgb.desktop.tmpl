@@ -1,12 +1,13 @@
 [Desktop Entry]
 Categories=Utility;
 Comment=Control RGB lighting
-Exec=env DESKTOPINTEGRATION=1 {{ .chezmoi.homeDir }}/AppImages/openrgb.appimage
+Exec=env DESKTOPINTEGRATION=1 {{ .chezmoi.homeDir }}/AppImages/openrgb.appimage --startminimized
 Icon={{ .chezmoi.homeDir }}/AppImages/.icons/openrgb
 Name=OpenRGB
 StartupWMClass=openrgb
 Terminal=false
-TryExec={{ .chezmoi.homeDir }}/AppImages/openrgb.appimage
+TryExec={{ .chezmoi.homeDir }}/AppImages/openrgb.appimage --startminimized
 Type=Application
 Version=1.5
 X-AppImage-Name=OpenRGB
+# vi:ft=desktop

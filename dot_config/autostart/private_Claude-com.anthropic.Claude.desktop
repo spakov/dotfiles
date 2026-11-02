@@ -2,7 +2,7 @@
 Actions=NewChat;NewCode;
 Categories=Utility;Development;
 Comment=Desktop application for Claude.ai
-Exec=/usr/bin/distrobox-enter  -n Claude  --   claude-desktop  %U
+Exec=/usr/bin/distrobox-enter  -n Claude  --   claude-desktop --startup %U
 GenericName=AI Assistant (on Claude)
 Icon=claude-desktop
 Keywords=AI;Chat;Assistant;Claude;Code;LLM;
