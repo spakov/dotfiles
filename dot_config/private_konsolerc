@@ -1,0 +1,17 @@
+[Desktop Entry]
+DefaultProfile=Catppuccin.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+RememberWindowSize=false
+ShowWindowTitleOnTitleBar=true
+
+[SearchSettings]
+SearchNoWrap=true
+SearchRegExpression=true
+SearchReverseSearch=false
+
+[UiSettings]
+ColorScheme=

@@ -1,0 +1,7 @@
+[ActiveShadow]
+InnerColor=170,170,255
+ShadowSize=16
+UseOuterColor=false
+
+[Windeco]
+ButtonSize=ButtonSmall
