@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+konsole -p TerminalColumns=160 -p TerminalRows=48 -e nvim ~/Projects/
