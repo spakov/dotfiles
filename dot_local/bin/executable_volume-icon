@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+mixer=$(amixer sget Master | grep 'Front Left:')
+state=$(cut -d[ -f3 <<<"$mixer" | cut -d] -f1)
+
+if [[ $state == off ]]; then
+  echo " "
+else
+  echo ""
+fi

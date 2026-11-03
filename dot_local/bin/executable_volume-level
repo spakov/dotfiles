@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+mixer=$(amixer sget Master | grep 'Front Left:')
+level=$(cut -d[ -f2 <<<"$mixer" | cut -d] -f1)
+state=$(cut -d[ -f3 <<<"$mixer" | cut -d] -f1)
+
+if [[ $state == off ]]; then
+  echo -e " "
+else
+  echo $level
+fi
