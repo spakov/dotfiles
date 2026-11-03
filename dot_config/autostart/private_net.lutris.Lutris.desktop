@@ -1,0 +1,14 @@
+[Desktop Entry]
+Categories=Game;PackageManager;
+Comment=Video Game Preservation Platform
+Exec=lutris lutris %U
+Icon=net.lutris.Lutris
+Keywords=gaming;wine;emulator;
+MimeType=x-scheme-handler/lutris;application/x-lutris;
+Name=Lutris
+StartupNotify=true
+StartupWMClass=net.lutris.Lutris
+Terminal=false
+Type=Application
+X-Desktop-File-Install-Version=0.28
+X-GNOME-UsesNotifications=true
