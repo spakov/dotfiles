@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# No spaces!
-backup_directories="Documents Notes"
+# Separate directories with whitespace
+backup_directories="Documents"
 
 my_files=/my-files/
 
