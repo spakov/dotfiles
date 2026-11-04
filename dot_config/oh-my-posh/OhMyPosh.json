@@ -13,7 +13,9 @@
     "gitBg": "cyan",
     "gitFg": "darkGray",
     "nbgvBg": "yellow",
-    "nbgvFg": "darkGray"
+    "nbgvFg": "darkGray",
+    "pythonBg": "green",
+    "pythonFg": "darkGray"
   },
   "blocks": [
     {
@@ -79,6 +81,15 @@
           "leading_diamond": "",
           "trailing_diamond": "",
           "template": "  {{ .SimpleVersion }} "
+        },
+        {
+          "type": "python",
+          "background": "p:pythonBg",
+          "foreground": "p:pythonFg",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "template": "  {{ .Venv }} "
         }
       ]
     }
