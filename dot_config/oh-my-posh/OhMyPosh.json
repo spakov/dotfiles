@@ -15,7 +15,9 @@
     "nbgvBg": "yellow",
     "nbgvFg": "darkGray",
     "pythonBg": "green",
-    "pythonFg": "darkGray"
+    "pythonFg": "darkGray",
+    "containerBg": "yellow",
+    "containerFg": "darkGray"
   },
   "blocks": [
     {
@@ -90,6 +92,15 @@
           "leading_diamond": "",
           "trailing_diamond": "",
           "template": "  {{ .Venv }} "
+        },
+        {
+          "type": "text",
+          "background": "p:containerBg",
+          "foreground": "p:containerFg",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "template": "{{ if .Env.CONTAINER_ID }} 󰵆 {{ .Env.CONTAINER_ID }} {{ end }}"
         }
       ]
     }
