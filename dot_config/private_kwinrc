@@ -3,7 +3,8 @@ AllowTearing=false
 
 [Desktops]
 Id_1=0f84bfe3-5920-4c61-81ca-538de24e2612
-Number=1
+Id_2=adb88eb8-897f-4474-918b-c7440b16155c
+Number=2
 Rows=1
 
 [Effect-hidecursor]
@@ -23,8 +24,10 @@ TabletMode=off
 
 [Plugins]
 blurEnabled=true
+desktopchangeosdEnabled=true
 diminactiveEnabled=true
 fallapartEnabled=true
+gamecontrollerEnabled=true
 hidecursorEnabled=true
 sheetEnabled=true
 slidebackEnabled=true
@@ -39,9 +42,21 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][adb88eb8-897f-4474-918b-c7440b16155c][a9f3288e-f53c-42be-9824-f4a09bc1ab32]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][dfc22600-4146-46ba-bc51-c5827a09c4e6][a9f3288e-f53c-42be-9824-f4a09bc1ab32]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Windows]
-Placement=Smart
+BorderSnapZone=12
+ElectricBorders=1
+PerOutputVirtualDesktops=true
+RollOverDesktops=true
 TitlebarDoubleClickCommand=Minimize
+WindowSnapZone=12
 
 [Xwayland]
 Scale=1
