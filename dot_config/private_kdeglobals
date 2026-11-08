@@ -144,7 +144,9 @@ smallestReadableFont=Monofur Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 toolBarFont=Monofur Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [KDE]
+DndBehavior=MoveIfSameDevice
 LookAndFeelPackage=Better Catppuccin Mocha 3
+ShowDeleteCommand=false
 contrast=7
 frameContrast=0.2
 
@@ -164,6 +166,10 @@ Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=138
 View Style=DetailTree
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=30,30,46
