@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+podman stop ClamAV
+podman rm ClamAV
+podman \
+  run \
+  --interactive \
+  --tty \
+  --name ClamAV \
+  --user clamav \
+  --entrypoint /init-unprivileged \
+  --mount type=bind,source=$HOME,target=/scandir,ro \
+  --userns=keep-id:uid=100,gid=101 \
+  --security-opt label=disable \
+  docker.io/clamav/clamav:stable_base

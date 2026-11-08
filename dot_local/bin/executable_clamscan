@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+podman \
+  exec \
+  --interactive \
+  --tty \
+  ClamAV \
+  clamscan \
+  --recursive \
+  --follow-dir-symlinks=2 \
+  --follow-file-symlinks=2 \
+  /scandir
