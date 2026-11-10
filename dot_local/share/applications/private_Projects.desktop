@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Projects
+Comment=LazyVim
+GenericName=LazyVim
+Exec=projects
+Type=Application
+StartupNotify=true
+StartupWMClass=Projects
+Path=
+PrefersNonDefaultGPU=false
+Categories=Development;
