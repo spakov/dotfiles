@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Proton Pass
+GenericName=Password Manager
+Comment=Securely store, share, and autofill your credentials.
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=start-proton-pass --file-forwarding me.proton.Pass @@u %U @@
+Icon=me.proton.Pass
+Terminal=false
+Type=Application
+Categories=Utility;Security;
+Keywords=password;manager;vault;credentials;security;encryption;2fa;totp;login;proton;
+StartupWMClass=Proton Pass
+StartupNotify=true
+MimeType=x-scheme-handler/protonpass;
+X-Flatpak=me.proton.Pass
