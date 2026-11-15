@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+podman run ClamAV
 podman \
   exec \
   --interactive \
@@ -9,4 +10,5 @@ podman \
   --recursive \
   --follow-dir-symlinks=2 \
   --follow-file-symlinks=2 \
+  --infected \
   /scandir
